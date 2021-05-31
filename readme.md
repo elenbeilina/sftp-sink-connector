@@ -1,4 +1,4 @@
-### App for moving xml data form kafka topic to oracle database table.
+### Connector for moving data form kafka topic to sftp server as it is.
 
 ---
 #### Environment:
