@@ -15,7 +15,7 @@
     docker compose up -d
     ```
 
- 2.Create connector:
+ 2. Create connector:
     ```
     sh create-connector.sh
     ```
@@ -26,9 +26,12 @@
     sh produce-data.sh
     ```
     
-Result can be checked in star_wars folder via connecting to SFTP server.
+Result can be checked in `star_wars` folder via connecting to SFTP server.
 
+**SFTP properties**:
+```
 Username: hun_solo
 Password: millennium_falcon
 host: sftp
 Port: 22
+```
