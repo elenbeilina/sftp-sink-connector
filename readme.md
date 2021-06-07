@@ -1,4 +1,4 @@
-### Connector for moving data form kafka topic to sftp server as it is.
+### Connector for moving xml data form kafka topic to sftp server as it is.
 
 ---
 #### Environment:
@@ -19,14 +19,14 @@
     ```
     sh create-connector.sh
     ```
- 3. Change local path to `test-data-star-wars.txt` in `produce-data.sh`
+ 3. Change local path to `test-data-star-wars.xml` in `produce-data.sh`
 
  4. Produce test data to kafka topic:
     ```
     sh produce-data.sh
     ```
     
-Result can be checked in `star_wars` folder via connecting to SFTP server.
+Result can be checked in `star_wars/people` folder via connecting to SFTP server.
 
 **SFTP properties**:
 ```

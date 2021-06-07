@@ -6,8 +6,10 @@
     "topics": "main",
     "camel.sink.path.host":"sftp",
     "camel.sink.path.port":"22",
-    "camel.sink.path.directoryName":"star_wars/",
+    "camel.sink.path.directoryName":"/people",
     "camel.sink.endpoint.username":"hun_solo",
-    "camel.sink.endpoint.password":"millennium_falcon"
+    "camel.sink.endpoint.password":"millennium_falcon",
+    "camel.sink.endpoint.fileName": "${exchangeId}.xml",
+    "value.converter": "org.apache.kafka.connect.storage.StringConverter"
   }
 }
